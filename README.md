@@ -9,7 +9,7 @@ ___
 
 ## Overview
 
-TuneFetch helps you download songs from YouTube in mp3 format along with cover image and metadata like lyrics and genre
+TuneFetch is a CLI program helps you download songs from YouTube in mp3 format and adds metadata to it like cover image, lyrics and genre. <br> It can also edit your existing mp3 files to have metadata
 
 ___
 <br><br>
@@ -18,7 +18,7 @@ ___
 ## Dependencies
 
 ```bash
-# ...
+sudo apt install ffmpeg
 ```
 
 ___
