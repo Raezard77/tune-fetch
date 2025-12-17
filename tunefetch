@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "Hello, world!"
+source ./lib/data.sh
+
+echo "Link: $link"
+echo "Title: $title"
