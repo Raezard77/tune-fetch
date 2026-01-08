@@ -1,47 +1,25 @@
-# INDEX
-1) [Default](#default)
-1) [tunefetch.txt](#tunefetchtxt)
-1) [Arguments](#arguments)
-___
-<br><br><br>
+<!-- 
+(Developer Overview)
+This explains the system flow and structure — not the fine logic.
+-->
 
+## 🗂️ Table of Contents
 
+1) [🗂️ Folder Structure](#folder-structure)
 
-## Default
+---
 
-```bash
-tunefetch
-```
+## <span id="folder-structure">🗂️ Folder Structure</span>
 
-1) Looks for `./data/tunefetch.txt`
-    - Can be for one or more track
-2) If not found → prompts user for fields one by one
-    - Can only be for one track
+- Source Code
+    - `tunefetch` → Main CLI Entry Point
+    - `lib/` → Internal Modules
+        - `data.sh` → Data Input Handler
+    - `tests/` → Unit Tests (Bats)
+- User Interface
+    - `data/` → Optional Data Input Folder
+    - `downloads` → Output folder for finished MP3s
 
+<!-- ---
 
-___
-<br><br>
-
-
-## tunefetch.txt
-
-```
-link
-https://
-
-title
-On Fire
-```
-
-___
-<br><br>
-
-
-## Arguments
-
-```bash
-tunefetch -h # or
-tunefetch --help
-
-tunefetch --link $link
-```
+## ... -->
